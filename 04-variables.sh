@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#arguments
 PERSON1=$1  # there should be no space before and after =
 PERSON2=$2
 echo "$PERSON1: Hi, how r u"
