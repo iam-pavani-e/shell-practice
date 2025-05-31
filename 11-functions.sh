@@ -17,7 +17,7 @@ VALIDATE() {
         echo "installing $2 is failure"
         exit 1
 }
-dnf installed mysql -y
+dnf list installed mysql -y
 
 if [ $? -ne 0 ]
 then 
@@ -29,7 +29,7 @@ else
 
 fi
 
-dnf installed python3 -y
+dnf list installed python3 -y
 
 if [ $? -ne 0 ]
 then 
@@ -42,7 +42,7 @@ else
 
 fi
 
-dnf installed ngnix -y 
+dnf list installed ngnix -y 
 
 if [ $? -ne 0 ]
 then 
