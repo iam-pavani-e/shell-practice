@@ -9,14 +9,13 @@ else
     echo "You are running with root access"
 fi
 
-VALIDATE(){
-    if [ $? -eq 0 ]
+VALIDATE() {
+    if [ $1 -eq 0 ]
     then
         echo "intalling $2 is success"
     else
         echo "installing $2 is failure"
         exit 1
-
 }
 dnf installed mysql -y
 
