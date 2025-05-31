@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PERSON1=pav
+PERSON1=pav  # there should be no space before and after =
 PERSON2=vani
 echo "$PERSON1: Hi, how r u"
 echo "$PERSON2: i am fine, how u doing?"
