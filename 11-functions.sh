@@ -43,7 +43,7 @@ else
 
 fi
 
-dnf installed ngnix -y
+dnf installed ngnix -y 
 
 if [ $? -ne 0 ]
 then 
