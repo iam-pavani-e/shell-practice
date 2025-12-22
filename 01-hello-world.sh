@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "Hi hello-world"
 echo "Hi Pavani"
-echo "Hi sweet, How r u"
+echo "Hi sweety, How r u"
+echo "I am learning AWS DevOps"
