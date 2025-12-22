@@ -1,4 +1,6 @@
 #!/bin/bash
+person1=pavani
+person2=Vishnu
 echo "All variables passed : $@"
 echo "No of variables: $#"
 echo "script name: $0"
